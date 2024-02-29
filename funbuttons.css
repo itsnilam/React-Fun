@@ -1,0 +1,20 @@
+.butndiv {
+  background-color: rgba(0, 0, 0, 0.816);
+  color: rgb(28, 27, 25);
+  display: flex;
+  height: 500px;
+}
+button {
+  background-color: transparent;
+  width: 100px;
+  color: aqua;
+  height: 40px;
+  border: 2px solid rgb(248, 247, 250);
+}
+.contentdiv {
+  position: absolute;
+  background-color: aquamarine;
+  height: 300px;
+  width: 100%;
+  margin: 5% 2%;
+}
