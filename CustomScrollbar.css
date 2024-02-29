@@ -1,0 +1,35 @@
+.custom-scrollbar {
+  position: fixed;
+  left: 0;
+  width: 8px;
+  background-color: #ccc;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.scroll-content {
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #655353;
+}
+
+/* Hide scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #935c5c;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
